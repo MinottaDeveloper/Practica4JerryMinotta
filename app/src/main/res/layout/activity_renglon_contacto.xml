@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded">
+
+        <ImageView
+            android:id="@+id/iv_iconoSexo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+        <LinearLayout
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_nombreGuardado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#EBEBEB"
+                android:text=""
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:id="@+id/tv_numeroGuardado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#EBEBEB"
+                android:text=""
+                android:textSize="7pt"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_llamar"
+          />
+
+        <ImageView
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/btn_eliminar"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
